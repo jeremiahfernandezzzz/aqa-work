@@ -102,7 +102,7 @@ var TxtType = function(el, toRotate, period) {
     };
 
     $(document).ready(function() {
-      $(window).scroll(function() {
+      // $(window).scroll(function() {
           var elements = document.getElementsByClassName('typewrite');
           for (var i=0; i<elements.length; i++) {
               var toRotate = elements[i].getAttribute('data-type');
@@ -116,12 +116,12 @@ var TxtType = function(el, toRotate, period) {
           css.type = "text/css";
           css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
           document.body.appendChild(css);
-      });
-
-      $(function(){  // $(document).ready shorthand
-        $('.monster').fadeIn('slow');
-      });
+      // });
     })
+
+    $(function(){  // $(document).ready shorthand
+      $('.monster').fadeIn('slow');
+    });
 
     $(document).ready(function() {
 
