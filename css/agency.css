@@ -3,9 +3,6 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
-*{
-  padding: 0;
-}
 
 body {
   overflow-x: hidden;
@@ -723,6 +720,10 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   /* border-radius: 10px; */
 }
 
-.inline-container{
-  display: inline;
+.inline-container {
+  display: inline
+}
+
+.service {
+  padding: 0px 0px 15px 0px
 }
